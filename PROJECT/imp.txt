@@ -1,0 +1,7 @@
+create table balancesheet(Accountno varchar(16), Date varchar(10), Mode varchar(8), deposit decimal(10,2), debit decimal(10,2), balance decimal(10,2), from_to_Account varchar(16));
+
+create table fd(FDno varchar(4) primary key, Accountno varchar(16), Mode varchar(6), Rupees decimal(10,2), Period int(3), Interest decimal(4,2), Date varchar(10));
+insert into fd values("1", "1103090278020001", "Child", 10000, 5, 2.5, "2016-10-09");
+
+create table draft(Draftno varchar(10), Date date, Favour varchar(50), Accountno varchar(16), Amount decimal(10,2));
+

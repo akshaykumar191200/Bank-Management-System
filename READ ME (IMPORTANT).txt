@@ -1,0 +1,50 @@
+Please read whole text first.
+
+
+****************************************
+Software Required
+
+1. Java development Kit(JDK 8.0.2)
+2. Recommended to install "Net beans"
+3. "My Sql"
+
+****************************************
+
+
+********************************************************************
+
+Main file destination :-  PROJECT\Banking Management System\dist
+file name :- Banking_Management_System
+
+*********************************************************************
+
+
+	Tips to copy MySql work of project "Banking" in your MySql.
+
+
+MY SQL password is "password"
+
+1. Open MySql;
+2. Create database of name "banking".
+    for example :- "Create database banking;"
+3. Use the database.
+    for example :- "Use banking;"
+4. Enter the following Text:-
+
+	source <scriptfile name along with path>;
+	
+	for example:- if the file "imp.sql" is at the path "C:\Users\Akshay Kumar\Desktop"
+					
+		then enter:-
+					
+		source C:/Users/Akshay Kumar/Desktop/imp.sql;
+
+___________________________________________________________________________________________________________
+ 
+	First Page of the project is "mainPage".
+	To login to the first page User Name is :- "akshay123" and password is :- "123456".
+	You can create your self Admin id in this project.
+____________________________________________________________________________________________________________
+					
+					
+NOTE :- Make sure that you are writing "/" instead of "\" while writing the path in your source.
